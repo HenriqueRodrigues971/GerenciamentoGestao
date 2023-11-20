@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento e Gestão</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo/principal.css">
+</head>
+
+<body>
+
+    <header>
+        <i class="material-symbols-outlined">menu</i>
+        <label for="">User: Admin</label><br>
+        <label for="">Cargo: Gerente</label>
+
+    </header>
+    <main>
+   <form action="" method="post">
+    <section>
+        <h1>Cadastro</h1>
+        <h3>Cadastro de novos usuarios!</h3>
+        <p class="fundo">
+            <label for="inome">Nome :</label>
+            <input type="text" name="nome" id="inome" placeholder="Insira o nome completo" required alt="Insira o nome completo" >
+        
+        </p>
+        <p class="fundo">
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" placeholder="Insira o email" alt="Insira o email" required>
+        </p>
+        <p class="fundo">
+          <label for="isenha">Senha :</label>
+          <input type="text" name="senha" id="isenha" required placeholder="Insira a senha do usuario">
+        </p>
+        <p>
+            <label for="">Cargo:</label>
+            <input type="checkbox" name="gerencia" id="igerencia"><label for="igerencia">Gerencia</label>
+            <input type="checkbox" name="frente" id="ifrente"><label for="ifrente">Frente de caixa</label>
+            <input type="checkbox" name="assistente" id="iassistente"><label for="iassistente">Assistente</label>
+        </p>
+        <p>
+            <label for="inascimento">Data de Nascimento:</label>
+            <input type="date" name="nascimento" id="inascimento">
+        </p>
+    </section>
+    <p>
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+    </main>
+
+</body>
+
+</html>
